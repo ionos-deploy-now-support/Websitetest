@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0B0B0B] text-[#fff] pt-0 m-0;
+  }
+
+  button, li {
+    @apply cursor-pointer
+  }
+}
