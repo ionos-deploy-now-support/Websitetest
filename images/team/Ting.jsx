@@ -1,15 +1,13 @@
 import React from "react";
-import Image from "next/image";
 
 const Ting = () => {
   return (
-    <Image
+    <img
       src="/assets/team/TingWang.png"
       alt="Ting Wang"
       width="500px"
       height="500px"
-      objectFit="cover"
-    ></Image>
+    ></img>
   );
 };
 

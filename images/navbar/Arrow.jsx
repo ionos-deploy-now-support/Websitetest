@@ -1,15 +1,13 @@
 import React from "react";
-import Image from "next/image";
 
 const Arrow = () => {
   return (
-    <Image
+    <img
       src="/assets/navbar/arrow.png"
       alt="menu button"
       width="30px"
       height="30px"
-      objectFit="contain"
-    ></Image>
+    ></img>
   );
 };
 

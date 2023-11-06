@@ -1,15 +1,13 @@
 import React from "react";
-import Image from "next/image";
 
 const Twin1 = () => {
   return (
-    <Image
+    <img
       src="/assets/usecases/digital_twin_1.png"
       alt="digital twin"
       width="1194px"
       height="1168px"
-      objectFit="contain"
-    ></Image>
+    ></img>
   );
 };
 

@@ -88,7 +88,7 @@ const Products = () => {
               <div className="w-full min-h-[60px]"></div>
             </div>
           </div>
-          <div className="mb-8 p-8">
+          <div className="mb-8 p-8 flex justify-center">
             <PilotProject />
           </div>
           <ProductButton href="pilot-project" />
@@ -110,7 +110,7 @@ const Products = () => {
               <div className="w-full min-h-[60px]"></div>
             </div>
           </div>
-          <div className="mb-8 p-8">
+          <div className="mb-8 p-8 flex justify-center">
             <Demex />
           </div>
           <ProductButton href="demex" />
@@ -134,7 +134,7 @@ const Products = () => {
               <div className="w-full min-h-[60px]"></div>
             </div>
           </div>
-          <div className="mb-8 p-8">
+          <div className="mb-8 p-8 flex justify-center">
             <TemperatureMonitoring />
           </div>
           <ProductButton href="temperature-monitoring" />
