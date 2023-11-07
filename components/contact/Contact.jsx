@@ -40,7 +40,7 @@ const Contact = () => {
             </div>
             <div className="mt-20 lg:mt-0 w-full lg:pl-20">
               <div className="text-md md:text-xl font-semibold mb-3">
-                <p className="mt-2">Leam</p>
+                <p className="mt-2">LEAM</p>
                 <p>info@leam.tech</p>
               </div>
             </div>

@@ -22,12 +22,7 @@ const Team = () => {
               achieved repeatedly and reliably, which enables completely new
               possibilities for additive manufacturing.
             </p>
-            <div className="w-full flex justify-center my-20 md:my-40">
-              <div className="md:ml-6 flex justify-center w-full md:w-[50%] max-w-[1000px] shadow-leam">
-                <Material />
-              </div>
-            </div>
-            <div className="md:flex mb-20 md:mb-40">
+            <div className="md:flex mb-20 md:mb-20 mt-20">
               <div className="flex items-center md:mr-12 w-full">
                 <div>
                   <p className="text-3xl md:text-5xl mb-6 outline-leam">
@@ -47,35 +42,37 @@ const Team = () => {
                 spot.
               </p>
             </div>
-            <div className="md:flex items-center mb-20">
-              <div className="mb-20 md:mb-0 md:pr-20 w-full md:w-[40%]">
-                <Twin1 />
+            <div className="w-full flex justify-center my-20">
+              <div className="md:ml-6 flex justify-center w-full md:w-[50%] max-w-[1000px] shadow-leam">
+                <Material />
               </div>
-              <div className="w-full md:w-[60%]">
+            </div>
+            <div className="md:flex items-center mb-20">
+              <div className="w-full">
                 <p className="text-3xl md:text-5xl mb-6">Digital twin</p>
                 <p className="text-base md:text-lg">
-                  Parts used in demanding sectors such as aerospace or oil & gas
-                  must satisfy the specified mechanical performance and
-                  durability. To keep track of every detail of the production
-                  process, our systems generate a digital twin of every part. In
-                  addition to all relevant machine parameters, the bonding
-                  temperature at every position in the part is recorded. This
-                  enables the complete and continuous documentation of a part,
-                  without additional effort for the manufacturer.
+                  Parts used in demanding sectors such as aerospace or oil &amp;
+                  gas must satisfy the specified mechanical performance and
+                  durability. For this purpose, it is necessary to keep track of
+                  every detail of the production process. With our systems you
+                  can generate a digital twin of your parts. In addition to all
+                  relevant machine parameters, the bonding temperature at every
+                  position in the part is recorded. This enables the complete
+                  and continuous documentation, like a birth certificate for the
+                  part, without additional effort for the manufacturer.
                 </p>
               </div>
             </div>
-            <div className="w-full flex justify-center">
-              <div className="p-4 pb-0 w-full md:w-[50%]">
+            <div className="w-full md:flex items-center">
+              <div className="p-4 w-full h-full">
                 <Twin2 />
+                <p>Digital Twin</p>
+              </div>
+              <div className="p-4 w-full h-full">
+                <Twin1 />
               </div>
             </div>
-            <div className="w-full flex justify-center mb-20">
-              <div className="p-4 w-full md:w-[50%]">
-                <div className="feature-gradient h-[2px] rotate-180"></div>
-              </div>
-            </div>
-            <div className="mb-20 w-full flex justify-center">
+            <div className="my-20 w-full flex justify-center">
               <a
                 href="contact"
                 className="border-2 p-2 pb-3 px-10 text-lg hover:bg-white hover:text-black transition-all ease-in"

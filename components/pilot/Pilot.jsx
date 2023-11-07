@@ -23,22 +23,29 @@ const Team = () => {
                 <br />
                 <br />
                 <div className="w-full">
-                  <ul className="md:w-[90%] ml-auto">
+                  <ul className="md:w-[90%] ml-auto list-disc">
                     <li>
-                      <b>-</b> Processing of new materials, e.g. injection
-                      molding grades that you could not print before
+                      Processing of new materials, e.g. injection molding grades
+                      that you could not print before
+                      <br />
+                      <br />
                     </li>
                     <li>
-                      <b>-</b> High performance applications that require
-                      reliable, high mechanical properties of the part
+                      High performance applications that require reliable, high
+                      mechanical properties of the part
+                      <br />
+                      <br />
                     </li>
                     <li>
-                      <b>-</b> New process combinations, e.g. functionalizing
-                      and individualizing CFRP components or injection molded
-                      parts.
+                      New process combinations, e.g. functionalizing and
+                      individualizing CFRP components or injection molded parts.
+                      <br />
+                      <br />
                     </li>
                     <li>
-                      <b>-</b> Your specific application
+                      Your specific application
+                      <br />
+                      <br />
                     </li>
                   </ul>
                 </div>

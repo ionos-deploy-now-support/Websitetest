@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "/images/navbar/Logo";
+import Link from "next/link";
 import Navlink from "./Navlink";
 import Menu from "/images/navbar/Menu";
 import Close from "/images/navbar/Close";
@@ -15,7 +16,11 @@ const Navbar = () => {
   return (
     <div className="navbar hover:bg-[rgba(0,0,0,0.8)] transition-all ease-in navbar fixed w-full h-[120px] z-[100] bg-gradient-to-b from-black to-black/[0]">
       <div className="flex p-[60px] justify-between items-center w-full h-full 2xl:px-32">
-        <Logo />
+        <Link href="/">
+          <div>
+            <Logo />
+          </div>
+        </Link>
         <div>
           <ul className="absolute invisible md:flex md:visible md:static">
             <Navlink hideArrow text="Home" href="/" />
@@ -42,7 +47,11 @@ const Navbar = () => {
           }
         >
           <div className="p-10 flex w-full items-center justify-between">
-            <Logo />
+            <Link href="/">
+              <div>
+                <Logo />
+              </div>
+            </Link>
             <div onClick={handleNav} className="cursor-pointer">
               <Close />
             </div>

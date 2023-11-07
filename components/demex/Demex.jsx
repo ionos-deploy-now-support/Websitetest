@@ -11,7 +11,7 @@ const Team = () => {
       <div className="flex mt-20 w-full justify-center">
         <div className="flex max-w-[1200px]">
           <div className="w-full px-10 md:px-20">
-            <p className="text-3xl md:text-5xl mb-10">Demex</p>
+            <p className="text-3xl md:text-5xl mb-10">DEMEX</p>
             <p className="text-base md:text-xl">
               We developed a technology we are calling "DEMEX“, short for
               Directed Energy Material Extrusion. The system is an add-on that
@@ -36,12 +36,10 @@ const Team = () => {
                   <div className="shadow-leam w-full h-full">
                     <Demex />
                   </div>
-                  <p>Demex</p>
                 </div>
               </div>
               <div className="w-full p-5 md:p-20">
                 <Lamp />
-                <p>Lamp</p>
               </div>
             </div>
             <p className="text-xl mt-20">
@@ -52,26 +50,26 @@ const Team = () => {
               <br />
             </p>
             <div className="w-full">
-              <ul className="w-[90%] ml-auto text-xl">
+              <ul className="w-[90%] ml-auto text-xl list-disc">
                 <li>
-                  - Print parts with isotropic strength and stiffness - No weak
+                  Print parts with isotropic strength and stiffness - No weak
                   spots between the layers
                 </li>
                 <li>
-                  - Print with injection molding grades - Take advantage of
-                  proven & lower-cost materials in your application.
+                  Print with injection molding grades - Take advantage of proven
+                  & lower-cost materials in your application.
                 </li>
                 <li>
-                  - Combine multiple materials in one print - The right material
+                  Combine multiple materials in one print - The right material
                   in the right place, even with a single extruder.
                 </li>
                 <li>
-                  - Manufacture parts with new process combinations -
+                  Manufacture parts with new process combinations -
                   Functionalize and individualize CFRP components or injection
                   molded parts.
                 </li>
                 <li>
-                  - Interrupt the process if needed - Stop after a production
+                  Interrupt the process if needed - Stop after a production
                   shift, restart the next day where you left off.
                 </li>
               </ul>

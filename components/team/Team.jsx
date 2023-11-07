@@ -10,10 +10,10 @@ const Team = () => {
       <div className="px-20 xl:px-40 flex justify-center max-w-[1500px]">
         <div>
           <div className="mt-10">
-            <p className="font-bold text-4xl mb-4">
+            <p className="text-3xl md:text-5xl mb-8">
               Light Enabled Additive Manufacturing
             </p>
-            <p className="max-w-prose mb-3 text-sm">
+            <p className="max-w-prose mb-3 text-xl">
               LEAM is a spin-out of the Technical University of Munich, one of
               the leading technical universities in Europe. Here the founders
               worked together as researchers and spent the last years developing
@@ -32,7 +32,7 @@ const Team = () => {
             <div className="feature-gradient w-[250px] md:w-[500px] h-[2px] mr-4 mb-10 rotate-180"></div>
           </div>
           <div className="md:flex w-full items-center justify-between mb-20">
-            <div className="md:mr-2 mb-20 md:mb-0 p-4">
+            <div className="md:mr-2 mb-20 md:mb-0 p-4 text-center">
               <Patrick />
               <p className="mt-4 font-bold text-lg">Patrick Consul</p>
               <p className="text-sm">CEO</p>
@@ -43,7 +43,7 @@ const Team = () => {
                 LinkedIn
               </a>
             </div>
-            <div className="md:mx-2 mb-20 md:mb-0 p-4">
+            <div className="md:mx-2 mb-20 md:mb-0 p-4 text-center">
               <Benno />
               <p className="mt-4 font-bold text-lg">Benno Böckl</p>
               <p className="text-sm">COO</p>
@@ -54,7 +54,7 @@ const Team = () => {
                 LinkedIn
               </a>
             </div>
-            <div className="md:ml-2 mb-20 md:mb-0 p-4">
+            <div className="md:ml-2 mb-20 md:mb-0 p-4 text-center">
               <Ting />
               <p className="mt-4 font-bold text-lg">Ting Wang</p>
               <p className="text-sm">CTO</p>

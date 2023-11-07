@@ -25,7 +25,6 @@ const Team = () => {
               </p>
               <div className="mt-20 md:mt-0 w-full md:w-[40%]">
                 <Mvp />
-                <p>Mvp</p>
               </div>
             </div>
             <div>
@@ -56,11 +55,11 @@ const Team = () => {
                 <div className="md:flex p-4 pb-0 w-full">
                   <div className="mb-8 md:mb-0 px-4">
                     <Bonding />
-                    <p>Logged Data of bonding temperature</p>
+                    <p>Recorded substrate temperature</p>
                   </div>
                   <div className="px-4">
                     <Printing />
-                    <p>Logged Data of printing speed</p>
+                    <p>Recorded printing speed</p>
                   </div>
                 </div>
               </div>
@@ -72,20 +71,20 @@ const Team = () => {
                 <br />
               </p>
               <div className="w-full">
-                <ul className="w-[90%] ml-auto">
+                <ul className="w-[90%] ml-auto list-disc">
                   <li>
-                    - Print up to 50% faster than before saving time and money
+                    Print up to 50% faster than before saving time and money
                     <br />
                     <br />
                   </li>
                   <li>
-                    - Be sure that the printed parts never overheat since the
+                    Be sure that the printed parts never overheat since the
                     manufacturing machine automatically counteracts if needed
                     <br />
                     <br />
                   </li>
                   <li>
-                    - Generate a digital twin of every part including bonding
+                    Generate a digital twin of every part including bonding
                     temperatures and all desired machine parameters
                     <br />
                     <br />
