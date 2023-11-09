@@ -37,11 +37,9 @@ const Products = () => {
             <div className="flex w-full ml-8">
               <div className="min-h-full w-[2px] bg-white mr-8"></div>
               <p className="text-xl">
-                Our Temperature Monitoring solution allows to detect the
-                temperature at every position of the part and control the
-                parameters of your 3D printer accordingly. Additionally, the
-                data can be logged to generate a digital twin - like a birth
-                certificate for your part.
+                Our Temperature Monitoring solution detects the temperature at every position of the part and controls
+the parameters of your 3D printer accordingly. Additionally, the data can be logged to generate a digital
+twin of the part.
               </p>
             </div>
           </div>
