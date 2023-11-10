@@ -9,7 +9,7 @@
 }
 
 .feature-background {
-    background-image: url("/assets/features/feature.jpg");
+    background-image: url("/assets/landing/products/pilot-project.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-filter: blur(10px) opacity(0.4);
